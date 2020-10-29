@@ -7,7 +7,7 @@ import javax.persistence.NoResultException;
 import java.util.List;
 
 @Repository
-public class UserDaoImpl extends AbstractDao<Integer, User> implements UserDAO {
+public class UserDaoImpl extends AbstractDao implements UserDAO {
 
 
     @Override
